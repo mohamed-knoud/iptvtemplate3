@@ -97,7 +97,18 @@ nav span{
     margin-top: 50px;
     height: auto;
     object-fit: cover;
-    margin:50px;
+    margin:10px;
+}
+#wrap{
+    display: flex;
+    margin: 50px 100px;
+}
+.wraped{
+    display: flex;
+    flex-direction:column;
+    color:white;
+    margin-right:10px;
+    text-align: center;
 }
 #logo_hero + i{
     margin-left:100px;
@@ -112,9 +123,9 @@ nav span{
 #slider{
     margin-bottom: 30px;
     margin-left: 100px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 
 #three{
@@ -123,9 +134,9 @@ nav span{
     margin: auto;
     color: white;
     margin-bottom: 40px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 
 #three div{
@@ -170,9 +181,9 @@ i + p{
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate; */
     position: relative;
-    animation-timeline: view();
+    /* animation-timeline: view(); */
 }
 
 
@@ -203,9 +214,9 @@ i + p{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 #prices i{
     font-size: 1.5em;
@@ -274,9 +285,9 @@ i + p{
     margin: auto;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 #work i{
     font-size: 8.5em;
@@ -350,9 +361,9 @@ i + p{
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
   }
 
   #app,#accor{
@@ -426,6 +437,17 @@ i + p{
 @media (max-width: 1000px) {
     #logo_hero{
        display: none;
+        }
+        #hero{
+            margin-bottom: 0;
+            text-align: center;
+        }
+        #hero span{
+            margin-left: 0;
+        }
+        #wrap{
+            margin:50px 20px;
+            text-align: center;
         }
         #slider img{
             display: block;
